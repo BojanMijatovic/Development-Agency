@@ -32,7 +32,8 @@ header {
         display: block;
         padding: 0.8rem;
         width: 5rem;
-        height: 5rem; } }
+        height: 5rem;
+        cursor: pointer; } }
   header .main-nav {
     margin-top: 1.5rem; }
     header .main-nav .nav-list {
@@ -120,9 +121,9 @@ html {
         justify-items: center; } }
     #digital .digital-list .digital-list__items img {
       padding: 0.5rem;
-      height: 20vh; }
+      height: 15vh; }
       @media (min-width: 30rem) {
         #digital .digital-list .digital-list__items img {
-          height: 25vh; } }
+          height: 20vh; } }
 
 /*# sourceMappingURL=main.css.map */
