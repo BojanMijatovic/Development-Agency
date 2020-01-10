@@ -1,0 +1,31 @@
+@import './general';
+
+//  Section Digital
+#digital {
+  margin-top: 2rem;
+
+  .digital-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+
+    //  Media
+    @media (min-width: 50rem) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+    }
+
+    .digital-list__items img {
+      padding: 0.5rem;
+      height: 20vh;
+
+      //  Media
+      @media (min-width: 30rem) {
+        height: 25vh;
+      }
+    }
+  }
+}

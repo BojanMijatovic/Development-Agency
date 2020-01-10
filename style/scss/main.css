@@ -20,8 +20,19 @@ header {
   display: flex;
   align-items: center;
   justify-content: center; }
+  @media (min-width: 30rem) {
+    header {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start; } }
   header img {
     display: none; }
+    @media (min-width: 30rem) {
+      header img {
+        display: block;
+        padding: 0.8rem;
+        width: 5rem;
+        height: 5rem; } }
   header .main-nav {
     margin-top: 1.5rem; }
     header .main-nav .nav-list {
@@ -29,6 +40,12 @@ header {
       display: flex;
       flex-direction: column;
       align-items: center; }
+      @media (min-width: 30rem) {
+        header .main-nav .nav-list {
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          padding-right: 2rem; } }
       header .main-nav .nav-list .nav-list__item {
         margin: 0.5rem; }
         header .main-nav .nav-list .nav-list__item .nav-item__links {
@@ -50,5 +67,62 @@ header {
 html {
   font-size: 62.5%;
   font-family: 'Work Sans', sans-serif; }
+
+#start {
+  background: url("https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") center/cover no-repeat;
+  width: 100vw;
+  height: 30vh;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center; }
+  @media (min-width: 30rem) {
+    #start {
+      height: 40vh; } }
+  @media (min-width: 50rem) {
+    #start {
+      height: 70vh; } }
+  #start .start-title {
+    margin: 0 auto;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #13295b; }
+    @media (min-width: 30rem) {
+      #start .start-title {
+        font-size: 2.6rem; } }
+    @media (min-width: 50rem) {
+      #start .start-title {
+        font-size: 3.2rem; } }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Work Sans', sans-serif; }
+
+#digital {
+  margin-top: 2rem; }
+  #digital .digital-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none; }
+    @media (min-width: 50rem) {
+      #digital .digital-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center; } }
+    #digital .digital-list .digital-list__items img {
+      padding: 0.5rem;
+      height: 20vh; }
+      @media (min-width: 30rem) {
+        #digital .digital-list .digital-list__items img {
+          height: 25vh; } }
 
 /*# sourceMappingURL=main.css.map */
