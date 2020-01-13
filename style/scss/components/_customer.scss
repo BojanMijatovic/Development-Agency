@@ -1,0 +1,32 @@
+@import './general';
+
+#customer {
+  margin-top: 4rem;
+  text-align: center;
+
+  .customer-title {
+    font-size: 2.2rem;
+    text-align: center;
+    color: $main-color-dark;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+  }
+
+  .customer-description {
+    font-size: 1.5rem;
+    color: $main-color-dark;
+    padding: 1.5rem;
+  }
+
+  .customer-img {
+    padding: 1rem 0;
+  }
+  .customer-name {
+    font-size: 1.8rem;
+    color: $main-color-dark;
+    font-weight: 700;
+  }
+  .customer-town {
+    color: $main-color;
+  }
+}

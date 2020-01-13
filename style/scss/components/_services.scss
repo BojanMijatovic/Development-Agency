@@ -42,16 +42,15 @@
         .business-subtitle {
           font-size: 1.5rem;
           text-align: center;
-          padding: 1.5rem;
-          color: $main-light-color1;
+          padding: 1rem;
+          color: $main-color;
         }
 
-        .business-btn {
+        .btn {
           color: $white;
           background: $main-color;
           border-radius: 0.8rem;
           padding: 0.8rem;
-          font-size: 1.6rem;
           border: none;
           margin-bottom: 3rem;
           cursor: pointer;
@@ -62,11 +61,14 @@
         text-align: center;
         img {
           width: 95vw;
-          height: 30vh;
+          height: 25vh;
 
           //  Media
           @media (min-width: 30rem) {
             width: 50vw;
+          }
+          @media (min-width: 40rem) {
+            height: 30vh;
           }
           @media (min-width: 50rem) {
             height: 40vh;
