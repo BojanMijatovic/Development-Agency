@@ -154,7 +154,9 @@ html {
   #development .section-title {
     font-size: 2.2rem;
     text-align: center;
-    color: #03328d; }
+    color: #03328d;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase; }
   #development .section__subtitle {
     color: #255ca2;
     font-size: 1.6rem;
@@ -181,7 +183,8 @@ html {
       text-align: center; }
       #development .development-items .development__item img {
         padding: 1rem;
-        color: #13295b; }
+        color: #13295b;
+        cursor: pointer; }
       #development .development-items .development__item .development-title {
         font-size: 1.8rem;
         color: #03328d;
@@ -189,5 +192,68 @@ html {
       #development .development-items .development__item .development-description {
         font-size: 1.6rem;
         color: #255ca2; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Work Sans', sans-serif; }
+
+#services {
+  margin-top: 2rem; }
+  #services .services-title {
+    font-size: 2.2rem;
+    text-align: center;
+    color: #03328d;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase; }
+  #services .business {
+    margin: 0.5rem; }
+    #services .business .business-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 2rem 0; }
+      @media (min-width: 30rem) {
+        #services .business .business-item {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          justify-items: center; } }
+      #services .business .business-item .business-description {
+        text-align: center; }
+        #services .business .business-item .business-description .business-title {
+          font-size: 1.8rem;
+          text-transform: uppercase;
+          color: #255ca2;
+          margin-top: 3rem; }
+        #services .business .business-item .business-description .business-subtitle {
+          font-size: 1.5rem;
+          text-align: center;
+          padding: 1.5rem;
+          color: #6ba0d3; }
+        #services .business .business-item .business-description .business-btn {
+          color: #ffffff;
+          background: #255ca2;
+          border-radius: 0.8rem;
+          padding: 0.8rem;
+          font-size: 1.6rem;
+          border: none;
+          margin-bottom: 3rem;
+          cursor: pointer; }
+      #services .business .business-item .business-img {
+        text-align: center; }
+        #services .business .business-item .business-img img {
+          width: 95vw;
+          height: 30vh; }
+          @media (min-width: 30rem) {
+            #services .business .business-item .business-img img {
+              width: 50vw; } }
+          @media (min-width: 50rem) {
+            #services .business .business-item .business-img img {
+              height: 40vh; } }
 
 /*# sourceMappingURL=main.css.map */

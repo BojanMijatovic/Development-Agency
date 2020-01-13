@@ -9,6 +9,8 @@
     font-size: 2.2rem;
     text-align: center;
     color: $main-color-dark;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
   }
   .section__subtitle {
     color: $main-color;
@@ -43,6 +45,7 @@
       img {
         padding: 1rem;
         color: $main-color-dark1;
+        cursor: pointer;
       }
       .development-title {
         font-size: 1.8rem;
