@@ -1,0 +1,59 @@
+@import './general';
+
+// Section development
+
+#development {
+  margin-top: 2rem;
+
+  .section-title {
+    font-size: 2.2rem;
+    text-align: center;
+    color: $main-color-dark;
+  }
+  .section__subtitle {
+    color: $main-color;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .development-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+    //  Media
+    @media (min-width: 30rem) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+    }
+    @media (min-width: 50rem) {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      justify-items: center;
+    }
+
+    .development__item {
+      margin: 2rem 0;
+      padding: 1.5rem;
+      text-align: center;
+
+      img {
+        padding: 1rem;
+        color: $main-color-dark1;
+      }
+      .development-title {
+        font-size: 1.8rem;
+        color: $main-color-dark;
+        padding: 1rem 0;
+      }
+
+      .development-description {
+        font-size: 1.6rem;
+        color: $main-color;
+      }
+    }
+  }
+}

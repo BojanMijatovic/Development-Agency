@@ -125,7 +125,8 @@ html {
         justify-items: center; } }
     #digital .digital-list .digital-list__items img {
       padding: 0.5rem;
-      height: 15vh; }
+      height: 15vh;
+      cursor: pointer; }
       @media (min-width: 30rem) {
         #digital .digital-list .digital-list__items img {
           height: 10vh;
@@ -138,5 +139,55 @@ html {
         #digital .digital-list .digital-list__items img {
           height: 15vh;
           width: 20vw; } }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Work Sans', sans-serif; }
+
+#development {
+  margin-top: 2rem; }
+  #development .section-title {
+    font-size: 2.2rem;
+    text-align: center;
+    color: #03328d; }
+  #development .section__subtitle {
+    color: #255ca2;
+    font-size: 1.6rem;
+    text-align: center; }
+  #development .development-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none; }
+    @media (min-width: 30rem) {
+      #development .development-items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center; } }
+    @media (min-width: 50rem) {
+      #development .development-items {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center; } }
+    #development .development-items .development__item {
+      margin: 2rem 0;
+      padding: 1.5rem;
+      text-align: center; }
+      #development .development-items .development__item img {
+        padding: 1rem;
+        color: #13295b; }
+      #development .development-items .development__item .development-title {
+        font-size: 1.8rem;
+        color: #03328d;
+        padding: 1rem 0; }
+      #development .development-items .development__item .development-description {
+        font-size: 1.6rem;
+        color: #255ca2; }
 
 /*# sourceMappingURL=main.css.map */
