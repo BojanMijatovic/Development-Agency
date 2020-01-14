@@ -80,7 +80,7 @@ html {
       height: 40vh; } }
   @media (min-width: 50rem) {
     #start {
-      height: 100vh; } }
+      height: 32vh; } }
   #start .start-title {
     margin: 0 auto;
     font-size: 1.8rem;
@@ -131,14 +131,10 @@ html {
         #digital .digital-list .digital-list__items img {
           height: 10vh;
           width: 25vw; } }
-      @media (min-width: 40rem) {
-        #digital .digital-list .digital-list__items img {
-          height: 15vh;
-          width: 20vw; } }
       @media (min-width: 50rem) {
         #digital .digital-list .digital-list__items img {
           height: 15vh;
-          width: 20vw; } }
+          width: 15vw; } }
 
 * {
   box-sizing: border-box;
@@ -256,7 +252,7 @@ html {
               height: 20vh; } }
           @media (min-width: 50rem) {
             #services .business .business-item .business-img img {
-              height: 25vh;
+              height: 20vh;
               width: 30vw; } }
 
 * {
