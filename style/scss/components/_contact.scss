@@ -54,6 +54,7 @@
       border-radius: 0.4rem;
       font-size: 1.5rem;
       border: 1px solid $main-light-color1;
+      width: 20rem;
     }
   }
   .contact-form textarea {
@@ -75,10 +76,10 @@
       width: 44vw;
     }
     @media (min-width: 40rem) {
-      width: 38vw;
+      width: 40vw;
     }
     @media (min-width: 50rem) {
-      width: 23vw;
+      width: 20vw;
     }
   }
 }

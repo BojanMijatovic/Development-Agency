@@ -4,11 +4,49 @@
 footer {
   margin-top: 2rem;
   text-align: center;
+  background-color: $main-light-color;
 
   .footer-list {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    list-style: none;
+
+    //  Media
+    @media (min-width: 30rem) {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem;
+    }
+
+    .footer-item {
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+
+      //  Media
+      @media (min-width: 30rem) {
+        margin: 1rem;
+        padding: 0;
+      }
+
+      .footer-item_links {
+        color: $main-color-dark;
+        font-size: 1.4rem;
+        text-decoration: none;
+      }
+
+      .footer-item_links:active,
+      .footer-item_links:hover {
+        color: $main-color-dark1;
+      }
+    }
+  }
+
+  p {
+    font-size: 1.4rem;
+    color: $main-color-dark1;
+    padding: 0.5rem;
   }
 }

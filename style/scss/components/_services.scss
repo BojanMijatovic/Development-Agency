@@ -35,7 +35,7 @@
         .business-title {
           font-size: 1.8rem;
           text-transform: uppercase;
-          color: $main-color;
+          color: $main-color-dark;
           margin-top: 3rem;
         }
 
@@ -68,10 +68,11 @@
             width: 50vw;
           }
           @media (min-width: 40rem) {
-            height: 25vh;
+            height: 20vh;
           }
           @media (min-width: 50rem) {
-            height: 20vh;
+            height: 25vh;
+            width: 30vw;
           }
         }
       }
