@@ -253,10 +253,10 @@ html {
               width: 50vw; } }
           @media (min-width: 40rem) {
             #services .business .business-item .business-img img {
-              height: 30vh; } }
+              height: 25vh; } }
           @media (min-width: 50rem) {
             #services .business .business-item .business-img img {
-              height: 40vh; } }
+              height: 20vh; } }
 
 * {
   box-sizing: border-box;
@@ -287,5 +287,94 @@ html {
     font-weight: 700; }
   #customer .customer-town {
     color: #255ca2; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Work Sans', sans-serif; }
+
+#contact {
+  margin-top: 3rem;
+  text-align: center; }
+  #contact .customer {
+    margin: 2rem; }
+    @media (min-width: 30rem) {
+      #contact .customer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around; } }
+  #contact .contact-title {
+    font-size: 2.2rem;
+    text-align: center;
+    color: #03328d; }
+  #contact .customer-support {
+    display: none; }
+    @media (min-width: 30rem) {
+      #contact .customer-support {
+        display: contents; } }
+    @media (min-width: 30rem) {
+      #contact .customer-support img {
+        width: 20vw; } }
+    @media (min-width: 40rem) {
+      #contact .customer-support img {
+        width: 15vw; } }
+    @media (min-width: 50rem) {
+      #contact .customer-support img {
+        width: 10vw; } }
+  #contact .contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem; }
+    #contact .contact-form .form-name {
+      font-size: 1.4rem;
+      color: #255ca2;
+      padding: 0.5rem; }
+    #contact .contact-form .form-input-name {
+      border-radius: 0.4rem;
+      font-size: 1.5rem;
+      border: 1px solid #6ba0d3; }
+  #contact .contact-form textarea {
+    border: 2px solid #6ba0d3;
+    border-radius: 0.4rem; }
+  #contact .form-btn {
+    width: 75vw;
+    color: #ffffff;
+    background: #255ca2;
+    border: none;
+    font-size: 1.8rem;
+    margin: 1.5rem;
+    padding: 0.5rem; }
+    @media (min-width: 30rem) {
+      #contact .form-btn {
+        width: 44vw; } }
+    @media (min-width: 40rem) {
+      #contact .form-btn {
+        width: 38vw; } }
+    @media (min-width: 50rem) {
+      #contact .form-btn {
+        width: 23vw; } }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Work Sans', sans-serif; }
+
+footer {
+  margin-top: 2rem;
+  text-align: center; }
+  footer .footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
 
 /*# sourceMappingURL=main.css.map */

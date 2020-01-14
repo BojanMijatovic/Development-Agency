@@ -1,0 +1,84 @@
+@import './general';
+
+#contact {
+  margin-top: 3rem;
+  text-align: center;
+
+  .customer {
+    margin: 2rem;
+    //  Media
+    @media (min-width: 30rem) {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+  }
+
+  .contact-title {
+    font-size: 2.2rem;
+    text-align: center;
+    color: $main-color-dark;
+  }
+
+  .customer-support {
+    display: none;
+    //  Media
+    @media (min-width: 30rem) {
+      display: contents;
+    }
+    img {
+      //  Media
+      @media (min-width: 30rem) {
+        width: 20vw;
+      }
+      @media (min-width: 40rem) {
+        width: 15vw;
+      }
+      @media (min-width: 50rem) {
+        width: 10vw;
+      }
+    }
+  }
+
+  .contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    .form-name {
+      font-size: 1.4rem;
+      color: $main-color;
+      padding: 0.5rem;
+    }
+    .form-input-name {
+      border-radius: 0.4rem;
+      font-size: 1.5rem;
+      border: 1px solid $main-light-color1;
+    }
+  }
+  .contact-form textarea {
+    border: 2px solid $main-light-color1;
+    border-radius: 0.4rem;
+  }
+
+  .form-btn {
+    width: 75vw;
+    color: $white;
+    background: $main-color;
+    border: none;
+    font-size: 1.8rem;
+    margin: 1.5rem;
+    padding: 0.5rem;
+
+    //  Media
+    @media (min-width: 30rem) {
+      width: 44vw;
+    }
+    @media (min-width: 40rem) {
+      width: 38vw;
+    }
+    @media (min-width: 50rem) {
+      width: 23vw;
+    }
+  }
+}
